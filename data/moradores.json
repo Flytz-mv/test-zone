@@ -1,0 +1,22 @@
+{
+    "moradores": [
+        {
+            "nome": "João Silva",
+            "email": "joao.silva@email.com",
+            "condominio": "Residencial Primavera",
+            "unidade": "101"
+        },
+        {
+            "nome": "Maria Santos",
+            "email": "maria.santos@email.com",
+            "condominio": "Residencial Primavera",
+            "unidade": "102"
+        },
+        {
+            "nome": "Pedro Oliveira",
+            "email": "pedro.oliveira@email.com",
+            "condominio": "Condomínio das Flores",
+            "unidade": "201"
+        }
+    ]
+} 
