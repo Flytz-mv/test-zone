@@ -33,9 +33,14 @@ def main():
 
         # Salva a unidade
         unidade = Unidade(morador.unidade, [morador.nome])
+        unidade_dict = unidade.to_dict()
+        # Serializa listas para string
+        for k, v in unidade_dict.items():
+            if isinstance(v, list):
+                unidade_dict[k] = json.dumps(v, ensure_ascii=False)
         redis_client.hset(
             f"unidade:{morador.condominio}:{morador.unidade}",
-            mapping=unidade.to_dict()
+            mapping=unidade_dict
         )
 
         # Salva o condomínio (adicionando a unidade à lista de unidades)
