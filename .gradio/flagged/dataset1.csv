@@ -1,0 +1,17 @@
+output,timestamp
+,2025-05-28 10:55:43.943625
+,2025-05-28 10:59:07.763276
+"'=== Moradores ===
+João Silva: {'nome': 'João Silva', 'email': 'joao.silva@email.com', 'condominio': 'Residencial Primavera', 'unidade': '101'}
+Maria Santos: {'nome': 'Maria Santos', 'email': 'maria.santos@email.com', 'condominio': 'Residencial Primavera', 'unidade': '102'}
+Pedro Oliveira: {'nome': 'Pedro Oliveira', 'email': 'pedro.oliveira@email.com', 'condominio': 'Condomínio das Flores', 'unidade': '201'}
+
+=== Unidades ===
+Residencial Primavera:101: {'numero': 101, 'moradores': ['João Silva']}
+Condomínio das Flores:201: {'numero': 201, 'moradores': ['Pedro Oliveira']}
+Residencial Primavera:102: {'numero': 102, 'moradores': ['Maria Santos']}
+
+=== Condomínios ===
+Residencial Primavera: {'nome': 'Residencial Primavera', 'unidades': ['101', '102']}
+Condomínio das Flores: {'nome': 'Condomínio das Flores', 'unidades': ['201']}
+",2025-05-28 11:00:36.816954
